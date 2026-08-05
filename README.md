@@ -99,19 +99,19 @@ This page tracks performance over time and confirms that there has been no meani
 
 ### Delivery Performance by Shipping Mode
 
-![Delivery Performance by Shipping Mode](Python/plot1_delay_by_shipmode.png)
+![Delivery Performance by Shipping Mode](https://raw.githubusercontent.com/Sammarth14052018/Supply_Chain_Dashboard/main/Python/plots/plot1_delay_by_shipping_mode.png)
 
 The first chart compares delivery risk by shipping mode and shows why First Class stands out as the weakest option.
 
 ### On-Time Delivery Rate by Region
 
-![On-Time Delivery Rate by Region](Python/plot2_delay_by_region.png)
+![On-Time Delivery Rate by Region](https://raw.githubusercontent.com/Sammarth14052018/Supply_Chain_Dashboard/main/Python/plots/plot2_delay_by_region.png)
 
 The regional view shows a tight cluster of low OTD performance, with no region approaching the expected benchmark.
 
 ### SLA Breach Heatmap
 
-![SLA Breach Heatmap](Python/plot3_sla_breach_heatmap.png)
+![SLA Breach Heatmap](https://raw.githubusercontent.com/Sammarth14052018/Supply_Chain_Dashboard/main/Python/plots/plot3_sla_breach_heatmap.png)
 
 This cross-tab visualization helped reveal the combined region and shipping-mode failure pattern before the SQL layer was built.
 
@@ -189,9 +189,10 @@ supply-chain-logistics-dashboard/
 │
 ├── Python/
 │   ├── Supply chain - Data Cleaning and EDA.ipynb
-│   ├── plot1_delay_by_shipmode.png
-│   ├── plot2_delay_by_region.png
-│   └── plot3_sla_breach_heatmap.png
+│   └── plots/
+│       ├── plot1_delay_by_shipping_mode.png
+│       ├── plot2_delay_by_region.png
+│       └── plot3_sla_breach_heatmap.png
 │
 ├── SQL/
 │   ├── 01_create_database.sql
