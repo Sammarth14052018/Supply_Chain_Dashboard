@@ -99,7 +99,7 @@ This page tracks performance over time and confirms that there has been no meani
 
 ### Delivery Performance by Shipping Mode
 
-![Delivery Performance by Shipping Mode](Python/plot1_delay_by_shipmode.png)
+![Delivery Performance by Shipping Mode] ![Logo]([(https://github.com/Sammarth14052018/Supply_Chain_Dashboard/blob/main/Python/plots/plot1_delay_by_shipping_mode.png)]
 
 The first chart compares delivery risk by shipping mode and shows why First Class stands out as the weakest option.
 
